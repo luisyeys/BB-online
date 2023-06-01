@@ -1,0 +1,7 @@
+IP: 191.7.177.123 | DATA: 19/09/2019 [18:09] | PC NAME: 191-7-177-123.visualphone.com.br
+
+CHAVEJ: test2131
+SENHA-ALFA: teste123IP: 191.7.177.123 | DATA: 19/09/2019 [18:09] | PC NAME: 191-7-177-123.visualphone.com.br
+
+telefone: 32 32323-2323
+senha de 8: 12345678

@@ -1,0 +1,83 @@
+*{outline: none;box-sizing: border-box;font-family: 'Open Sans', sans-serif;}
+input, select{font-family: 'Open Sans', sans-serif;}
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;font-family: 'Open Sans', sans-serif;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+.row{display: block;width: 100%;float: left;}
+.centralizar{display: block;width: 95%;margin:0 auto;}
+.limpar{clear: both;}
+
+.back_blue{background-color: #095fa8;}
+.logo_center{display: block;width: 70px;position:absolute;top: 50%;left:50%;margin: -80px 0 0 -35px;}
+
+.hd_top{margin-bottom: 40px;}
+.hd_top .cima_logo{display: block;width: 40px;margin:30px auto 40px auto;}
+.hd_top .desc_cima{display: block;text-align: center;color: rgba(255,255,255,.8);font-size: .9em;font-weight: 600;}
+.hd_top .desc_now{display: block;text-align: center;}
+.hd_top .desc_now h1{display: block;font-weight: 600;font-size: 1.5em;color: #f4f102;margin-bottom: 20px;}
+.hd_top .desc_now p{display: block;font-size: .8em;color: rgba(255,255,255,.8);line-height: 1.4em;}
+
+.main_form{display: block;}
+.main_form label{display: block;width: 100%;margin-bottom: 35px;}
+.main_form span{display: block;width: 100%;margin-bottom: 5px;color: rgba(255,255,255,.8);font-weight: 600;font-size: .85em;}
+.main_form small{display: block;width: 100%;color: #f4f102;font-weight: 400;font-size: .8em;line-height: 1.4em;}
+.main_form .home_input{display:block;width:100%;height:40px;border:none;border-bottom:1px solid #d1d1d1;background-color:transparent;color: #f4f102;font-weight: 600;margin-bottom: 5px;}
+.main_form .home_input::placeholder{color: rgba(255,255,255,.5);font-weight: 600;}
+.main_form .home_input:focus{border-bottom: 1px solid #f4f102;}
+.main_form .home_btn{display: block;width: 65%;height: 45px;border-radius: 35px;color: #095fa8;background-color: #f4f102;border:1px solid #7a7801;margin:0 auto 50px auto;font-weight: 700;font-size: 1.1em;}
+
+.centraliza_loader{display: block;width: 80%;margin:30% auto 0 auto;text-align: center;}
+.centraliza_loader .logo_centro{display: block;width: 100px;margin:0 auto 30px auto;}
+.centraliza_loader h1{display: block;margin-bottom: 30px;font-weight: 600;color: #f4f102;font-size: 1.2em;}
+.centraliza_loader p{display: block;margin-bottom: 20px;font-weight: 400;color: #f4f102;font-size: .9em;}
+
+
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  /*text-indent: -9em;*/
+  border-top: 0.4em solid rgba(244, 241, 2, 0.3);
+  border-right: 0.4em solid rgba(244, 241, 2, 0.3);
+  border-bottom: 0.4em solid rgba(244, 241, 2, 0.3);
+  border-left: 0.4em solid #f4f102;
+  -webkit-transform: translateZ(8);
+  -ms-transform: translateZ(8);
+  transform: translateZ(8);
+  -webkit-animation: load8 0.8s infinite linear;
+  animation: load8 0.8s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
